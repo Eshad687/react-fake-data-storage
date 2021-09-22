@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Cosmetics from './components/Cosmetics/Cosmetics';
+
+// the things we import are called modules
+//react divides the js codes into module and we can import them when needed
+//if there is no ./ that means they are node module
+// ./ modules are in our own file
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Cosmetics />
     </div>
   );
 }
